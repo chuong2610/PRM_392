@@ -1,0 +1,1731 @@
+{
+  "schemaVersion": "1.0",
+  "building": {
+    "externalId": "mall-hcm-01",
+    "name": "Trung tâm WayFlo Sài Gòn",
+    "address": "Đại lộ Lê Lợi, Quận 1, TP. Hồ Chí Minh"
+  },
+  "floor": {
+    "externalId": "floor-l3",
+    "name": "Tầng 3 - Ẩm thực, rạp phim và giải trí",
+    "floorNumber": 3,
+    "elevation": 10.8,
+    "defaultCeilingHeight": 5,
+    "coordinateUnit": "pixel",
+    "metersPerUnit": 0.01,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        1600,
+        0
+      ],
+      [
+        1600,
+        1000
+      ],
+      [
+        0,
+        1000
+      ]
+    ]
+  },
+  "floorplanVlm": {
+    "walls": [
+      {
+        "id": "l3-wall-north",
+        "start": [
+          60,
+          40
+        ],
+        "end": [
+          1540,
+          40
+        ],
+        "thickness": 14,
+        "height": 5,
+        "openings": []
+      },
+      {
+        "id": "l3-wall-east",
+        "start": [
+          1540,
+          40
+        ],
+        "end": [
+          1540,
+          960
+        ],
+        "thickness": 14,
+        "height": 5,
+        "openings": []
+      },
+      {
+        "id": "l3-wall-south",
+        "start": [
+          1540,
+          960
+        ],
+        "end": [
+          60,
+          960
+        ],
+        "thickness": 14,
+        "height": 5,
+        "openings": []
+      },
+      {
+        "id": "l3-wall-west",
+        "start": [
+          60,
+          960
+        ],
+        "end": [
+          60,
+          40
+        ],
+        "thickness": 14,
+        "height": 5,
+        "openings": []
+      },
+      {
+        "id": "l3-front-cinema",
+        "start": [
+          150,
+          220
+        ],
+        "end": [
+          735,
+          220
+        ],
+        "thickness": 12,
+        "height": 4.8,
+        "openings": [
+          {
+            "id": "door-galaxy-cinema",
+            "type": "DOOR",
+            "center": 0.52,
+            "width": 150
+          }
+        ]
+      },
+      {
+        "id": "l3-front-arcade",
+        "start": [
+          130,
+          290
+        ],
+        "end": [
+          130,
+          520
+        ],
+        "thickness": 10,
+        "height": 4.3,
+        "openings": [
+          {
+            "id": "door-arcade-lab",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 88
+          }
+        ]
+      },
+      {
+        "id": "l3-front-bowling",
+        "start": [
+          130,
+          570
+        ],
+        "end": [
+          130,
+          760
+        ],
+        "thickness": 10,
+        "height": 4.3,
+        "openings": [
+          {
+            "id": "door-bowling-club",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 88
+          }
+        ]
+      },
+      {
+        "id": "l3-front-food-court",
+        "start": [
+          560,
+          815
+        ],
+        "end": [
+          1040,
+          815
+        ],
+        "thickness": 10,
+        "height": 4.2,
+        "openings": [
+          {
+            "id": "door-food-court-l3",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 160
+          }
+        ]
+      },
+      {
+        "id": "l3-front-ramen",
+        "start": [
+          190,
+          815
+        ],
+        "end": [
+          500,
+          815
+        ],
+        "thickness": 10,
+        "height": 4.2,
+        "openings": [
+          {
+            "id": "door-ramen-house",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 100
+          }
+        ]
+      },
+      {
+        "id": "l3-front-store-b",
+        "start": [
+          1085,
+          215
+        ],
+        "end": [
+          1485,
+          215
+        ],
+        "thickness": 10,
+        "height": 4.2,
+        "openings": [
+          {
+            "id": "door-store-b",
+            "type": "DOOR",
+            "center": 0.45,
+            "width": 115
+          }
+        ]
+      },
+      {
+        "id": "l3-front-dessert",
+        "start": [
+          1470,
+          280
+        ],
+        "end": [
+          1470,
+          455
+        ],
+        "thickness": 10,
+        "height": 4.2,
+        "openings": [
+          {
+            "id": "door-dessert-bar",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 78
+          }
+        ]
+      },
+      {
+        "id": "l3-front-restroom",
+        "start": [
+          1315,
+          760
+        ],
+        "end": [
+          1485,
+          760
+        ],
+        "thickness": 10,
+        "height": 3.8,
+        "openings": [
+          {
+            "id": "door-restroom-l3",
+            "type": "DOOR",
+            "center": 0.45,
+            "width": 70
+          }
+        ]
+      },
+      {
+        "id": "l3-front-rooftop-terrace",
+        "start": [
+          1120,
+          815
+        ],
+        "end": [
+          1485,
+          815
+        ],
+        "thickness": 10,
+        "height": 2.8,
+        "openings": [
+          {
+            "id": "door-rooftop-terrace",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 140
+          }
+        ]
+      },
+      {
+        "id": "l3-atrium-rail-n",
+        "start": [
+          555,
+          325
+        ],
+        "end": [
+          1045,
+          325
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l3-atrium-north",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l3-atrium-rail-e",
+        "start": [
+          1045,
+          325
+        ],
+        "end": [
+          1045,
+          675
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l3-atrium-east",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l3-atrium-rail-s",
+        "start": [
+          1045,
+          675
+        ],
+        "end": [
+          555,
+          675
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l3-atrium-south",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l3-atrium-rail-w",
+        "start": [
+          555,
+          675
+        ],
+        "end": [
+          555,
+          325
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l3-atrium-west",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l3-elevator-core-n",
+        "start": [
+          1110,
+          420
+        ],
+        "end": [
+          1270,
+          420
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": []
+      },
+      {
+        "id": "l3-elevator-core-e",
+        "start": [
+          1270,
+          420
+        ],
+        "end": [
+          1270,
+          580
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": []
+      },
+      {
+        "id": "l3-elevator-core-s",
+        "start": [
+          1270,
+          580
+        ],
+        "end": [
+          1110,
+          580
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": [
+          {
+            "id": "door-elevator-a-l3",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 92
+          }
+        ]
+      },
+      {
+        "id": "l3-elevator-core-w",
+        "start": [
+          1110,
+          580
+        ],
+        "end": [
+          1110,
+          420
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": [
+          {
+            "id": "door-elevator-west-l3",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 92
+          }
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "id": "room-l3-north-promenade",
+        "label": "Hành lang Bắc tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            300,
+            120
+          ],
+          [
+            1300,
+            120
+          ],
+          [
+            1300,
+            300
+          ],
+          [
+            300,
+            300
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-south-promenade",
+        "label": "Hành lang Nam tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            300,
+            700
+          ],
+          [
+            1300,
+            700
+          ],
+          [
+            1300,
+            880
+          ],
+          [
+            300,
+            880
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-west-gallery",
+        "label": "Dãy giải trí phía Tây tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            120,
+            220
+          ],
+          [
+            330,
+            220
+          ],
+          [
+            330,
+            790
+          ],
+          [
+            120,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-east-gallery",
+        "label": "Dãy ẩm thực phía Đông tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            1270,
+            220
+          ],
+          [
+            1480,
+            220
+          ],
+          [
+            1480,
+            790
+          ],
+          [
+            1270,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-atrium-void",
+        "label": "Khoảng thông tầng",
+        "walls": [
+          "l3-atrium-rail-n",
+          "l3-atrium-rail-e",
+          "l3-atrium-rail-s",
+          "l3-atrium-rail-w"
+        ],
+        "polygon": [
+          [
+            560,
+            330
+          ],
+          [
+            1040,
+            330
+          ],
+          [
+            1040,
+            670
+          ],
+          [
+            560,
+            670
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-view-deck",
+        "label": "Đài quan sát thông tầng",
+        "walls": [],
+        "polygon": [
+          [
+            690,
+            465
+          ],
+          [
+            910,
+            465
+          ],
+          [
+            910,
+            535
+          ],
+          [
+            690,
+            535
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-elevator-a",
+        "label": "Thang máy A tầng 3",
+        "walls": [
+          "l3-elevator-core-n",
+          "l3-elevator-core-e",
+          "l3-elevator-core-s",
+          "l3-elevator-core-w"
+        ],
+        "polygon": [
+          [
+            1115,
+            425
+          ],
+          [
+            1265,
+            425
+          ],
+          [
+            1265,
+            575
+          ],
+          [
+            1115,
+            575
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-escalator-main",
+        "label": "Thang cuốn trung tâm tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            705,
+            410
+          ],
+          [
+            900,
+            410
+          ],
+          [
+            900,
+            590
+          ],
+          [
+            705,
+            590
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-stair-west",
+        "label": "Thang thoát hiểm Tây tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            150,
+            705
+          ],
+          [
+            250,
+            705
+          ],
+          [
+            250,
+            790
+          ],
+          [
+            150,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-stair-east",
+        "label": "Thang thoát hiểm Đông tầng 3",
+        "walls": [],
+        "polygon": [
+          [
+            1365,
+            210
+          ],
+          [
+            1460,
+            210
+          ],
+          [
+            1460,
+            295
+          ],
+          [
+            1365,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-galaxy-cinema",
+        "label": "Rạp phim Ngân Hà",
+        "walls": [
+          "l3-front-cinema"
+        ],
+        "polygon": [
+          [
+            150,
+            55
+          ],
+          [
+            735,
+            55
+          ],
+          [
+            735,
+            220
+          ],
+          [
+            150,
+            220
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-arcade-lab",
+        "label": "Khu trò chơi điện tử",
+        "walls": [
+          "l3-front-arcade"
+        ],
+        "polygon": [
+          [
+            65,
+            270
+          ],
+          [
+            130,
+            270
+          ],
+          [
+            130,
+            535
+          ],
+          [
+            65,
+            535
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-bowling-club",
+        "label": "Khu ném bóng giải trí",
+        "walls": [
+          "l3-front-bowling"
+        ],
+        "polygon": [
+          [
+            65,
+            555
+          ],
+          [
+            130,
+            555
+          ],
+          [
+            130,
+            775
+          ],
+          [
+            65,
+            775
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-ramen-house",
+        "label": "Mì Nhật Sakura",
+        "walls": [
+          "l3-front-ramen"
+        ],
+        "polygon": [
+          [
+            190,
+            815
+          ],
+          [
+            500,
+            815
+          ],
+          [
+            500,
+            945
+          ],
+          [
+            190,
+            945
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-food-court",
+        "label": "Khu Ẩm thực Tầng Mây",
+        "walls": [
+          "l3-front-food-court"
+        ],
+        "polygon": [
+          [
+            560,
+            815
+          ],
+          [
+            1040,
+            815
+          ],
+          [
+            1040,
+            945
+          ],
+          [
+            560,
+            945
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-store-b",
+        "label": "Cửa hàng Công nghệ B",
+        "walls": [
+          "l3-front-store-b"
+        ],
+        "polygon": [
+          [
+            1085,
+            55
+          ],
+          [
+            1485,
+            55
+          ],
+          [
+            1485,
+            215
+          ],
+          [
+            1085,
+            215
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-dessert-bar",
+        "label": "Quầy Tráng miệng",
+        "walls": [
+          "l3-front-dessert"
+        ],
+        "polygon": [
+          [
+            1470,
+            260
+          ],
+          [
+            1535,
+            260
+          ],
+          [
+            1535,
+            465
+          ],
+          [
+            1470,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-rooftop-terrace",
+        "label": "Sân thượng ngắm cảnh",
+        "walls": [
+          "l3-front-rooftop-terrace"
+        ],
+        "polygon": [
+          [
+            1120,
+            815
+          ],
+          [
+            1485,
+            815
+          ],
+          [
+            1485,
+            945
+          ],
+          [
+            1120,
+            945
+          ]
+        ]
+      },
+      {
+        "id": "room-l3-restroom",
+        "label": "Nhà vệ sinh tầng 3",
+        "walls": [
+          "l3-front-restroom"
+        ],
+        "polygon": [
+          [
+            1315,
+            620
+          ],
+          [
+            1485,
+            620
+          ],
+          [
+            1485,
+            760
+          ],
+          [
+            1315,
+            760
+          ]
+        ]
+      }
+    ]
+  },
+  "spaceMetadata": [
+    {
+      "roomId": "room-l3-north-promenade",
+      "name": "Hành lang Bắc tầng 3",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-south-promenade",
+      "name": "Hành lang Nam tầng 3",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-west-gallery",
+      "name": "Dãy giải trí phía Tây tầng 3",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-east-gallery",
+      "name": "Dãy ẩm thực phía Đông tầng 3",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-atrium-void",
+      "name": "Khoảng thông tầng",
+      "spaceType": "SERVICE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-view-deck",
+      "name": "Đài quan sát thông tầng",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-elevator-a",
+      "name": "Thang máy A tầng 3",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-escalator-main",
+      "name": "Thang cuốn trung tâm tầng 3",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-stair-west",
+      "name": "Thang thoát hiểm Tây tầng 3",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-stair-east",
+      "name": "Thang thoát hiểm Đông tầng 3",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-galaxy-cinema",
+      "name": "Rạp phim Ngân Hà",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-arcade-lab",
+      "name": "Khu trò chơi điện tử",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-bowling-club",
+      "name": "Khu ném bóng giải trí",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-ramen-house",
+      "name": "Mì Nhật Sakura",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-food-court",
+      "name": "Khu Ẩm thực Tầng Mây",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-store-b",
+      "name": "Cửa hàng Công nghệ B",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-dessert-bar",
+      "name": "Quầy Tráng miệng",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-rooftop-terrace",
+      "name": "Sân thượng ngắm cảnh",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l3-restroom",
+      "name": "Nhà vệ sinh tầng 3",
+      "spaceType": "RESTROOM",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    }
+  ],
+  "pois": [
+    {
+      "externalId": "poi-galaxy-cinema",
+      "name": "Rạp phim Ngân Hà",
+      "category": "CINEMA",
+      "roomId": "room-l3-galaxy-cinema",
+      "entranceDoorId": "door-galaxy-cinema",
+      "routingNodeId": "n-l3-cinema",
+      "position": [
+        440,
+        135
+      ],
+      "searchAliases": [
+        "rạp phim",
+        "rap phim",
+        "phim",
+        "movie",
+        "cinema"
+      ]
+    },
+    {
+      "externalId": "poi-arcade-lab",
+      "name": "Khu trò chơi điện tử",
+      "category": "ENTERTAINMENT",
+      "roomId": "room-l3-arcade-lab",
+      "entranceDoorId": "door-arcade-lab",
+      "routingNodeId": "n-l3-arcade",
+      "position": [
+        95,
+        405
+      ],
+      "searchAliases": [
+        "khu game",
+        "trò chơi",
+        "tro choi",
+        "game",
+        "arcade"
+      ]
+    },
+    {
+      "externalId": "poi-bowling-club",
+      "name": "Khu ném bóng giải trí",
+      "category": "ENTERTAINMENT",
+      "roomId": "room-l3-bowling-club",
+      "entranceDoorId": "door-bowling-club",
+      "routingNodeId": "n-l3-bowling",
+      "position": [
+        95,
+        665
+      ],
+      "searchAliases": [
+        "ném bóng",
+        "nem bong",
+        "bowling",
+        "giải trí",
+        "giai tri"
+      ]
+    },
+    {
+      "externalId": "poi-ramen-house",
+      "name": "Mì Nhật Sakura",
+      "category": "RESTAURANT",
+      "roomId": "room-l3-ramen-house",
+      "entranceDoorId": "door-ramen-house",
+      "routingNodeId": "n-l3-ramen",
+      "position": [
+        345,
+        880
+      ],
+      "searchAliases": [
+        "mì nhật",
+        "mi nhat",
+        "ramen",
+        "nhà hàng",
+        "nha hang"
+      ]
+    },
+    {
+      "externalId": "poi-skyline-food-court",
+      "name": "Khu Ẩm thực Tầng Mây",
+      "category": "FOOD_COURT",
+      "roomId": "room-l3-food-court",
+      "entranceDoorId": "door-food-court-l3",
+      "routingNodeId": "n-l3-foodcourt",
+      "position": [
+        800,
+        880
+      ],
+      "searchAliases": [
+        "food court",
+        "ẩm thực",
+        "am thuc",
+        "ăn uống",
+        "an uong"
+      ]
+    },
+    {
+      "externalId": "poi-store-b",
+      "name": "Cửa hàng Công nghệ B",
+      "category": "ELECTRONICS_STORE",
+      "roomId": "room-l3-store-b",
+      "entranceDoorId": "door-store-b",
+      "routingNodeId": "n-l3-store-b",
+      "position": [
+        1285,
+        135
+      ],
+      "searchAliases": [
+        "công nghệ",
+        "cong nghe",
+        "điện máy",
+        "dien may",
+        "tech"
+      ]
+    },
+    {
+      "externalId": "poi-dessert-bar",
+      "name": "Quầy Tráng miệng",
+      "category": "DESSERT",
+      "roomId": "room-l3-dessert-bar",
+      "entranceDoorId": "door-dessert-bar",
+      "routingNodeId": "n-l3-dessert",
+      "position": [
+        1505,
+        365
+      ],
+      "searchAliases": [
+        "tráng miệng",
+        "trang mieng",
+        "bánh ngọt",
+        "banh ngot",
+        "dessert"
+      ]
+    },
+    {
+      "externalId": "poi-rooftop-terrace",
+      "name": "Sân thượng ngắm cảnh",
+      "category": "LANDMARK",
+      "roomId": "room-l3-rooftop-terrace",
+      "entranceDoorId": "door-rooftop-terrace",
+      "routingNodeId": "n-l3-terrace",
+      "position": [
+        1300,
+        880
+      ],
+      "searchAliases": [
+        "sân thượng",
+        "san thuong",
+        "ngắm cảnh",
+        "ngam canh",
+        "view"
+      ]
+    },
+    {
+      "externalId": "poi-restroom-l3",
+      "name": "Nhà vệ sinh tầng 3",
+      "category": "RESTROOM",
+      "roomId": "room-l3-restroom",
+      "entranceDoorId": "door-restroom-l3",
+      "routingNodeId": "n-l3-restroom",
+      "position": [
+        1400,
+        690
+      ],
+      "searchAliases": [
+        "nhà vệ sinh",
+        "nha ve sinh",
+        "wc",
+        "toilet",
+        "restroom"
+      ]
+    },
+    {
+      "externalId": "poi-atrium-view-deck",
+      "name": "Đài quan sát thông tầng",
+      "category": "LANDMARK",
+      "roomId": "room-l3-view-deck",
+      "routingNodeId": "n-l3-atrium",
+      "position": [
+        800,
+        500
+      ],
+      "searchAliases": [
+        "đài quan sát",
+        "dai quan sat",
+        "sảnh thông tầng",
+        "sanh thong tang",
+        "view deck"
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "externalId": "elevator-a-l3",
+      "groupId": "elevator-a",
+      "type": "ELEVATOR",
+      "roomId": "room-l3-elevator-a",
+      "routingNodeId": "n-l3-elevator",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": true
+    },
+    {
+      "externalId": "escalator-main-l3",
+      "groupId": "escalator-main",
+      "type": "ESCALATOR",
+      "roomId": "room-l3-escalator-main",
+      "routingNodeId": "n-l3-escalator",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    },
+    {
+      "externalId": "stair-west-l3",
+      "groupId": "stair-west",
+      "type": "STAIR",
+      "roomId": "room-l3-stair-west",
+      "routingNodeId": "n-l3-stair-west",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    },
+    {
+      "externalId": "stair-east-l3",
+      "groupId": "stair-east",
+      "type": "STAIR",
+      "roomId": "room-l3-stair-east",
+      "routingNodeId": "n-l3-stair-east",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    }
+  ],
+  "kiosks": [
+    {
+      "externalId": "kiosk-l3-01",
+      "name": "Máy tra cứu ẩm thực",
+      "routingNodeId": "n-l3-atrium",
+      "position": [
+        760,
+        560
+      ]
+    }
+  ],
+  "navigation": {
+    "nodes": [
+      {
+        "id": "n-l3-south",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          760
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-atrium",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-north",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          220
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-west",
+        "type": "WALKWAY",
+        "position": [
+          240,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-east",
+        "type": "WALKWAY",
+        "position": [
+          1360,
+          390
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-elevator",
+        "type": "CONNECTOR",
+        "position": [
+          1190,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-escalator",
+        "type": "CONNECTOR",
+        "position": [
+          800,
+          410
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l3-stair-west",
+        "type": "CONNECTOR",
+        "position": [
+          205,
+          748
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l3-stair-east",
+        "type": "CONNECTOR",
+        "position": [
+          1410,
+          252
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l3-cinema",
+        "type": "POI_ANCHOR",
+        "position": [
+          440,
+          228
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-arcade",
+        "type": "POI_ANCHOR",
+        "position": [
+          138,
+          405
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-bowling",
+        "type": "POI_ANCHOR",
+        "position": [
+          138,
+          665
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-ramen",
+        "type": "POI_ANCHOR",
+        "position": [
+          345,
+          808
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-foodcourt",
+        "type": "POI_ANCHOR",
+        "position": [
+          800,
+          808
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-store-b",
+        "type": "POI_ANCHOR",
+        "position": [
+          1285,
+          222
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-dessert",
+        "type": "POI_ANCHOR",
+        "position": [
+          1460,
+          365
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-terrace",
+        "type": "POI_ANCHOR",
+        "position": [
+          1300,
+          808
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-restroom",
+        "type": "POI_ANCHOR",
+        "position": [
+          1400,
+          612
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-east-gate",
+        "type": "WALKWAY",
+        "position": [
+          1080,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l3-east-upper",
+        "type": "WALKWAY",
+        "position": [
+          1080,
+          390
+        ],
+        "accessible": true
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-l3-south-atrium",
+        "fromNodeId": "n-l3-south",
+        "toNodeId": "n-l3-atrium",
+        "type": "WALKWAY",
+        "distanceMeters": 2.6,
+        "cost": 2.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-atrium-north",
+        "fromNodeId": "n-l3-atrium",
+        "toNodeId": "n-l3-north",
+        "type": "WALKWAY",
+        "distanceMeters": 2.8,
+        "cost": 2.8,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-atrium-west",
+        "fromNodeId": "n-l3-atrium",
+        "toNodeId": "n-l3-west",
+        "type": "WALKWAY",
+        "distanceMeters": 5.6,
+        "cost": 5.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-atrium-east",
+        "fromNodeId": "n-l3-atrium",
+        "toNodeId": "n-l3-east-gate",
+        "type": "WALKWAY",
+        "distanceMeters": 2.8,
+        "cost": 2.8,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-east-elevator",
+        "fromNodeId": "n-l3-east-gate",
+        "toNodeId": "n-l3-elevator",
+        "type": "WALKWAY",
+        "distanceMeters": 1.1,
+        "cost": 1.1,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-atrium-escalator",
+        "fromNodeId": "n-l3-atrium",
+        "toNodeId": "n-l3-escalator",
+        "type": "WALKWAY",
+        "distanceMeters": 0.9,
+        "cost": 0.9,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l3-west-stair",
+        "fromNodeId": "n-l3-west",
+        "toNodeId": "n-l3-stair-west",
+        "type": "WALKWAY",
+        "distanceMeters": 2.5,
+        "cost": 2.5,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l3-east-stair",
+        "fromNodeId": "n-l3-east",
+        "toNodeId": "n-l3-stair-east",
+        "type": "WALKWAY",
+        "distanceMeters": 1.47,
+        "cost": 1.47,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l3-north-cinema",
+        "fromNodeId": "n-l3-north",
+        "toNodeId": "n-l3-cinema",
+        "type": "DOOR_LINK",
+        "distanceMeters": 3.6,
+        "cost": 3.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-west-arcade",
+        "fromNodeId": "n-l3-west",
+        "toNodeId": "n-l3-arcade",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.39,
+        "cost": 1.39,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-west-bowling",
+        "fromNodeId": "n-l3-west",
+        "toNodeId": "n-l3-bowling",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.94,
+        "cost": 1.94,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-south-ramen",
+        "fromNodeId": "n-l3-south",
+        "toNodeId": "n-l3-ramen",
+        "type": "DOOR_LINK",
+        "distanceMeters": 4.58,
+        "cost": 4.58,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-south-foodcourt",
+        "fromNodeId": "n-l3-south",
+        "toNodeId": "n-l3-foodcourt",
+        "type": "DOOR_LINK",
+        "distanceMeters": 0.48,
+        "cost": 0.48,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-north-store-b",
+        "fromNodeId": "n-l3-north",
+        "toNodeId": "n-l3-store-b",
+        "type": "DOOR_LINK",
+        "distanceMeters": 4.85,
+        "cost": 4.85,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-east-dessert",
+        "fromNodeId": "n-l3-east",
+        "toNodeId": "n-l3-dessert",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.03,
+        "cost": 1.03,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-south-terrace",
+        "fromNodeId": "n-l3-south",
+        "toNodeId": "n-l3-terrace",
+        "type": "DOOR_LINK",
+        "distanceMeters": 5.02,
+        "cost": 5.02,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l3-east-restroom",
+        "fromNodeId": "n-l3-east",
+        "toNodeId": "n-l3-restroom",
+        "type": "DOOR_LINK",
+        "distanceMeters": 2.26,
+        "cost": 2.26,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-elevator-l2-l3",
+        "fromNodeId": "n-l2-elevator",
+        "toNodeId": "n-l3-elevator",
+        "type": "ELEVATOR",
+        "distanceMeters": 0,
+        "cost": 25,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-escalator-l2-l3",
+        "fromNodeId": "n-l2-escalator",
+        "toNodeId": "n-l3-escalator",
+        "type": "ESCALATOR",
+        "distanceMeters": 0,
+        "cost": 18,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-stair-west-l2-l3",
+        "fromNodeId": "n-l2-stair-west",
+        "toNodeId": "n-l3-stair-west",
+        "type": "STAIR",
+        "distanceMeters": 0,
+        "cost": 20,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-stair-east-l2-l3",
+        "fromNodeId": "n-l2-stair-east",
+        "toNodeId": "n-l3-stair-east",
+        "type": "STAIR",
+        "distanceMeters": 0,
+        "cost": 20,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l3-east-gate-upper",
+        "fromNodeId": "n-l3-east-gate",
+        "toNodeId": "n-l3-east-upper",
+        "type": "WALKWAY",
+        "bidirectional": true,
+        "accessible": true,
+        "distanceMeters": 1.1,
+        "cost": 1.1
+      },
+      {
+        "id": "e-l3-east-upper-gallery",
+        "fromNodeId": "n-l3-east-upper",
+        "toNodeId": "n-l3-east",
+        "type": "WALKWAY",
+        "bidirectional": true,
+        "accessible": true,
+        "distanceMeters": 2.8,
+        "cost": 2.8
+      }
+    ]
+  }
+}

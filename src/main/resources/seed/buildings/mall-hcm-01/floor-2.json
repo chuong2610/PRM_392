@@ -1,0 +1,1732 @@
+{
+  "schemaVersion": "1.0",
+  "building": {
+    "externalId": "mall-hcm-01",
+    "name": "Trung tâm WayFlo Sài Gòn",
+    "address": "Đại lộ Lê Lợi, Quận 1, TP. Hồ Chí Minh"
+  },
+  "floor": {
+    "externalId": "floor-l2",
+    "name": "Tầng 2 - Thời trang và dịch vụ",
+    "floorNumber": 2,
+    "elevation": 5.4,
+    "defaultCeilingHeight": 4.8,
+    "coordinateUnit": "pixel",
+    "metersPerUnit": 0.01,
+    "bounds": [
+      [
+        0,
+        0
+      ],
+      [
+        1600,
+        0
+      ],
+      [
+        1600,
+        1000
+      ],
+      [
+        0,
+        1000
+      ]
+    ]
+  },
+  "floorplanVlm": {
+    "walls": [
+      {
+        "id": "l2-wall-north",
+        "start": [
+          60,
+          40
+        ],
+        "end": [
+          1540,
+          40
+        ],
+        "thickness": 14,
+        "height": 4.8,
+        "openings": []
+      },
+      {
+        "id": "l2-wall-east",
+        "start": [
+          1540,
+          40
+        ],
+        "end": [
+          1540,
+          960
+        ],
+        "thickness": 14,
+        "height": 4.8,
+        "openings": []
+      },
+      {
+        "id": "l2-wall-south",
+        "start": [
+          1540,
+          960
+        ],
+        "end": [
+          60,
+          960
+        ],
+        "thickness": 14,
+        "height": 4.8,
+        "openings": []
+      },
+      {
+        "id": "l2-wall-west",
+        "start": [
+          60,
+          960
+        ],
+        "end": [
+          60,
+          40
+        ],
+        "thickness": 14,
+        "height": 4.8,
+        "openings": []
+      },
+      {
+        "id": "l2-front-fashion-avenue",
+        "start": [
+          160,
+          205
+        ],
+        "end": [
+          525,
+          205
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-fashion-avenue",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 110
+          }
+        ]
+      },
+      {
+        "id": "l2-front-sport-house",
+        "start": [
+          130,
+          270
+        ],
+        "end": [
+          130,
+          455
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-sport-house",
+            "type": "DOOR",
+            "center": 0.46,
+            "width": 78
+          }
+        ]
+      },
+      {
+        "id": "l2-front-kids-planet",
+        "start": [
+          130,
+          510
+        ],
+        "end": [
+          130,
+          695
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-kids-planet",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 78
+          }
+        ]
+      },
+      {
+        "id": "l2-front-home-living",
+        "start": [
+          190,
+          815
+        ],
+        "end": [
+          540,
+          815
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-home-living",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 105
+          }
+        ]
+      },
+      {
+        "id": "l2-front-beauty-studio",
+        "start": [
+          1085,
+          215
+        ],
+        "end": [
+          1485,
+          215
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-lumiere-beauty-l2",
+            "type": "DOOR",
+            "center": 0.42,
+            "width": 100
+          }
+        ]
+      },
+      {
+        "id": "l2-front-sneaker-studio",
+        "start": [
+          1470,
+          280
+        ],
+        "end": [
+          1470,
+          455
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-sneaker-studio",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 78
+          }
+        ]
+      },
+      {
+        "id": "l2-front-travel-gear",
+        "start": [
+          1470,
+          510
+        ],
+        "end": [
+          1470,
+          690
+        ],
+        "thickness": 10,
+        "height": 4,
+        "openings": [
+          {
+            "id": "door-travel-gear",
+            "type": "DOOR",
+            "center": 0.52,
+            "width": 78
+          }
+        ]
+      },
+      {
+        "id": "l2-front-restroom",
+        "start": [
+          1315,
+          760
+        ],
+        "end": [
+          1485,
+          760
+        ],
+        "thickness": 10,
+        "height": 3.8,
+        "openings": [
+          {
+            "id": "door-restroom-l2",
+            "type": "DOOR",
+            "center": 0.45,
+            "width": 70
+          }
+        ]
+      },
+      {
+        "id": "l2-front-service-lounge",
+        "start": [
+          590,
+          815
+        ],
+        "end": [
+          1010,
+          815
+        ],
+        "thickness": 10,
+        "height": 3.8,
+        "openings": [
+          {
+            "id": "door-service-lounge",
+            "type": "DOOR",
+            "center": 0.52,
+            "width": 110
+          }
+        ]
+      },
+      {
+        "id": "l2-atrium-rail-n",
+        "start": [
+          555,
+          325
+        ],
+        "end": [
+          1045,
+          325
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l2-atrium-north",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l2-atrium-rail-e",
+        "start": [
+          1045,
+          325
+        ],
+        "end": [
+          1045,
+          675
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l2-atrium-east",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l2-atrium-rail-s",
+        "start": [
+          1045,
+          675
+        ],
+        "end": [
+          555,
+          675
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l2-atrium-south",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l2-atrium-rail-w",
+        "start": [
+          555,
+          675
+        ],
+        "end": [
+          555,
+          325
+        ],
+        "thickness": 8,
+        "height": 1.1,
+        "openings": [
+          {
+            "id": "opening-l2-atrium-west",
+            "type": "OPENING",
+            "center": 0.5,
+            "width": 120
+          }
+        ]
+      },
+      {
+        "id": "l2-elevator-core-n",
+        "start": [
+          1110,
+          420
+        ],
+        "end": [
+          1270,
+          420
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": []
+      },
+      {
+        "id": "l2-elevator-core-e",
+        "start": [
+          1270,
+          420
+        ],
+        "end": [
+          1270,
+          580
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": []
+      },
+      {
+        "id": "l2-elevator-core-s",
+        "start": [
+          1270,
+          580
+        ],
+        "end": [
+          1110,
+          580
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": [
+          {
+            "id": "door-elevator-a-l2",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 92
+          }
+        ]
+      },
+      {
+        "id": "l2-elevator-core-w",
+        "start": [
+          1110,
+          580
+        ],
+        "end": [
+          1110,
+          420
+        ],
+        "thickness": 10,
+        "height": 2.6,
+        "openings": [
+          {
+            "id": "door-elevator-west-l2",
+            "type": "DOOR",
+            "center": 0.5,
+            "width": 92
+          }
+        ]
+      }
+    ],
+    "rooms": [
+      {
+        "id": "room-l2-north-promenade",
+        "label": "Hành lang Bắc tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            300,
+            120
+          ],
+          [
+            1300,
+            120
+          ],
+          [
+            1300,
+            300
+          ],
+          [
+            300,
+            300
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-south-promenade",
+        "label": "Hành lang Nam tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            300,
+            700
+          ],
+          [
+            1300,
+            700
+          ],
+          [
+            1300,
+            880
+          ],
+          [
+            300,
+            880
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-west-gallery",
+        "label": "Dãy thời trang phía Tây tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            120,
+            220
+          ],
+          [
+            330,
+            220
+          ],
+          [
+            330,
+            790
+          ],
+          [
+            120,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-east-gallery",
+        "label": "Dãy thời trang phía Đông tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            1270,
+            220
+          ],
+          [
+            1480,
+            220
+          ],
+          [
+            1480,
+            790
+          ],
+          [
+            1270,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-atrium-void",
+        "label": "Khoảng thông tầng",
+        "walls": [
+          "l2-atrium-rail-n",
+          "l2-atrium-rail-e",
+          "l2-atrium-rail-s",
+          "l2-atrium-rail-w"
+        ],
+        "polygon": [
+          [
+            560,
+            330
+          ],
+          [
+            1040,
+            330
+          ],
+          [
+            1040,
+            670
+          ],
+          [
+            560,
+            670
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-sky-bridge",
+        "label": "Cầu kính tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            690,
+            465
+          ],
+          [
+            910,
+            465
+          ],
+          [
+            910,
+            535
+          ],
+          [
+            690,
+            535
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-elevator-a",
+        "label": "Thang máy A tầng 2",
+        "walls": [
+          "l2-elevator-core-n",
+          "l2-elevator-core-e",
+          "l2-elevator-core-s",
+          "l2-elevator-core-w"
+        ],
+        "polygon": [
+          [
+            1115,
+            425
+          ],
+          [
+            1265,
+            425
+          ],
+          [
+            1265,
+            575
+          ],
+          [
+            1115,
+            575
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-escalator-main",
+        "label": "Thang cuốn trung tâm tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            705,
+            410
+          ],
+          [
+            900,
+            410
+          ],
+          [
+            900,
+            590
+          ],
+          [
+            705,
+            590
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-stair-west",
+        "label": "Thang thoát hiểm Tây tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            150,
+            705
+          ],
+          [
+            250,
+            705
+          ],
+          [
+            250,
+            790
+          ],
+          [
+            150,
+            790
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-stair-east",
+        "label": "Thang thoát hiểm Đông tầng 2",
+        "walls": [],
+        "polygon": [
+          [
+            1365,
+            210
+          ],
+          [
+            1460,
+            210
+          ],
+          [
+            1460,
+            295
+          ],
+          [
+            1365,
+            295
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-fashion-avenue",
+        "label": "Đại lộ Thời Trang",
+        "walls": [
+          "l2-front-fashion-avenue"
+        ],
+        "polygon": [
+          [
+            160,
+            55
+          ],
+          [
+            525,
+            55
+          ],
+          [
+            525,
+            205
+          ],
+          [
+            160,
+            205
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-sport-house",
+        "label": "Nhà Thể Thao",
+        "walls": [
+          "l2-front-sport-house"
+        ],
+        "polygon": [
+          [
+            65,
+            250
+          ],
+          [
+            130,
+            250
+          ],
+          [
+            130,
+            465
+          ],
+          [
+            65,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-kids-planet",
+        "label": "Hành tinh Trẻ Em",
+        "walls": [
+          "l2-front-kids-planet"
+        ],
+        "polygon": [
+          [
+            65,
+            500
+          ],
+          [
+            130,
+            500
+          ],
+          [
+            130,
+            705
+          ],
+          [
+            65,
+            705
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-home-living",
+        "label": "Nội thất An Gia",
+        "walls": [
+          "l2-front-home-living"
+        ],
+        "polygon": [
+          [
+            190,
+            815
+          ],
+          [
+            540,
+            815
+          ],
+          [
+            540,
+            945
+          ],
+          [
+            190,
+            945
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-lumiere-beauty",
+        "label": "Ánh Sáng Làm đẹp",
+        "walls": [
+          "l2-front-beauty-studio"
+        ],
+        "polygon": [
+          [
+            1085,
+            55
+          ],
+          [
+            1485,
+            55
+          ],
+          [
+            1485,
+            215
+          ],
+          [
+            1085,
+            215
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-sneaker-studio",
+        "label": "Giày thể thao Sài Gòn",
+        "walls": [
+          "l2-front-sneaker-studio"
+        ],
+        "polygon": [
+          [
+            1470,
+            260
+          ],
+          [
+            1535,
+            260
+          ],
+          [
+            1535,
+            465
+          ],
+          [
+            1470,
+            465
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-travel-gear",
+        "label": "Hành lý Du lịch",
+        "walls": [
+          "l2-front-travel-gear"
+        ],
+        "polygon": [
+          [
+            1470,
+            500
+          ],
+          [
+            1535,
+            500
+          ],
+          [
+            1535,
+            705
+          ],
+          [
+            1470,
+            705
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-service-lounge",
+        "label": "Quầy Dịch vụ Thành viên",
+        "walls": [
+          "l2-front-service-lounge"
+        ],
+        "polygon": [
+          [
+            590,
+            815
+          ],
+          [
+            1010,
+            815
+          ],
+          [
+            1010,
+            945
+          ],
+          [
+            590,
+            945
+          ]
+        ]
+      },
+      {
+        "id": "room-l2-restroom",
+        "label": "Nhà vệ sinh tầng 2",
+        "walls": [
+          "l2-front-restroom"
+        ],
+        "polygon": [
+          [
+            1315,
+            620
+          ],
+          [
+            1485,
+            620
+          ],
+          [
+            1485,
+            760
+          ],
+          [
+            1315,
+            760
+          ]
+        ]
+      }
+    ]
+  },
+  "spaceMetadata": [
+    {
+      "roomId": "room-l2-north-promenade",
+      "name": "Hành lang Bắc tầng 2",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-south-promenade",
+      "name": "Hành lang Nam tầng 2",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-west-gallery",
+      "name": "Dãy thời trang phía Tây tầng 2",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-east-gallery",
+      "name": "Dãy thời trang phía Đông tầng 2",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-atrium-void",
+      "name": "Khoảng thông tầng",
+      "spaceType": "SERVICE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-sky-bridge",
+      "name": "Cầu kính tầng 2",
+      "spaceType": "CORRIDOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-elevator-a",
+      "name": "Thang máy A tầng 2",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-escalator-main",
+      "name": "Thang cuốn trung tâm tầng 2",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-stair-west",
+      "name": "Thang thoát hiểm Tây tầng 2",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-stair-east",
+      "name": "Thang thoát hiểm Đông tầng 2",
+      "spaceType": "CONNECTOR",
+      "walkable": true,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-fashion-avenue",
+      "name": "Đại lộ Thời Trang",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-sport-house",
+      "name": "Nhà Thể Thao",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-kids-planet",
+      "name": "Hành tinh Trẻ Em",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-home-living",
+      "name": "Nội thất An Gia",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-lumiere-beauty",
+      "name": "Ánh Sáng Làm đẹp",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-sneaker-studio",
+      "name": "Giày thể thao Sài Gòn",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-travel-gear",
+      "name": "Hành lý Du lịch",
+      "spaceType": "STORE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-service-lounge",
+      "name": "Quầy Dịch vụ Thành viên",
+      "spaceType": "SERVICE",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    },
+    {
+      "roomId": "room-l2-restroom",
+      "name": "Nhà vệ sinh tầng 2",
+      "spaceType": "RESTROOM",
+      "walkable": false,
+      "publicAccess": true,
+      "status": "OPEN"
+    }
+  ],
+  "pois": [
+    {
+      "externalId": "poi-fashion-avenue",
+      "name": "Đại lộ Thời Trang",
+      "category": "FASHION_STORE",
+      "roomId": "room-l2-fashion-avenue",
+      "entranceDoorId": "door-fashion-avenue",
+      "routingNodeId": "n-l2-fashion",
+      "position": [
+        340,
+        132
+      ],
+      "searchAliases": [
+        "thời trang",
+        "thoi trang",
+        "quần áo",
+        "quan ao",
+        "fashion"
+      ]
+    },
+    {
+      "externalId": "poi-sport-house",
+      "name": "Nhà Thể Thao",
+      "category": "SPORTS_STORE",
+      "roomId": "room-l2-sport-house",
+      "entranceDoorId": "door-sport-house",
+      "routingNodeId": "n-l2-sport",
+      "position": [
+        95,
+        360
+      ],
+      "searchAliases": [
+        "thể thao",
+        "the thao",
+        "giày thể thao",
+        "giay the thao",
+        "sport"
+      ]
+    },
+    {
+      "externalId": "poi-kids-planet",
+      "name": "Hành tinh Trẻ Em",
+      "category": "KIDS_STORE",
+      "roomId": "room-l2-kids-planet",
+      "entranceDoorId": "door-kids-planet",
+      "routingNodeId": "n-l2-kids",
+      "position": [
+        95,
+        600
+      ],
+      "searchAliases": [
+        "trẻ em",
+        "tre em",
+        "đồ chơi",
+        "do choi",
+        "kids"
+      ]
+    },
+    {
+      "externalId": "poi-home-living",
+      "name": "Nội thất An Gia",
+      "category": "HOME_STORE",
+      "roomId": "room-l2-home-living",
+      "entranceDoorId": "door-home-living",
+      "routingNodeId": "n-l2-home",
+      "position": [
+        365,
+        880
+      ],
+      "searchAliases": [
+        "nội thất",
+        "noi that",
+        "gia dụng",
+        "gia dung",
+        "home"
+      ]
+    },
+    {
+      "externalId": "poi-lumiere-beauty-l2",
+      "name": "Ánh Sáng Làm đẹp",
+      "category": "BEAUTY_SERVICE",
+      "roomId": "room-l2-lumiere-beauty",
+      "entranceDoorId": "door-lumiere-beauty-l2",
+      "routingNodeId": "n-l2-beauty",
+      "position": [
+        1285,
+        135
+      ],
+      "searchAliases": [
+        "làm đẹp",
+        "lam dep",
+        "mỹ phẩm",
+        "my pham",
+        "spa"
+      ]
+    },
+    {
+      "externalId": "poi-sneaker-studio",
+      "name": "Giày thể thao Sài Gòn",
+      "category": "SHOE_STORE",
+      "roomId": "room-l2-sneaker-studio",
+      "entranceDoorId": "door-sneaker-studio",
+      "routingNodeId": "n-l2-sneaker",
+      "position": [
+        1505,
+        365
+      ],
+      "searchAliases": [
+        "giày",
+        "giay",
+        "giày thể thao",
+        "giay the thao",
+        "sneaker"
+      ]
+    },
+    {
+      "externalId": "poi-travel-gear",
+      "name": "Hành lý Du lịch",
+      "category": "LUGGAGE_STORE",
+      "roomId": "room-l2-travel-gear",
+      "entranceDoorId": "door-travel-gear",
+      "routingNodeId": "n-l2-travel",
+      "position": [
+        1505,
+        605
+      ],
+      "searchAliases": [
+        "vali",
+        "hành lý",
+        "hanh ly",
+        "du lịch",
+        "du lich"
+      ]
+    },
+    {
+      "externalId": "poi-service-lounge",
+      "name": "Quầy Dịch vụ Thành viên",
+      "category": "SERVICE",
+      "roomId": "room-l2-service-lounge",
+      "entranceDoorId": "door-service-lounge",
+      "routingNodeId": "n-l2-service",
+      "position": [
+        800,
+        885
+      ],
+      "searchAliases": [
+        "dịch vụ",
+        "dich vu",
+        "thành viên",
+        "thanh vien",
+        "chăm sóc khách hàng",
+        "cham soc khach hang"
+      ]
+    },
+    {
+      "externalId": "poi-restroom-l2",
+      "name": "Nhà vệ sinh tầng 2",
+      "category": "RESTROOM",
+      "roomId": "room-l2-restroom",
+      "entranceDoorId": "door-restroom-l2",
+      "routingNodeId": "n-l2-restroom",
+      "position": [
+        1400,
+        690
+      ],
+      "searchAliases": [
+        "nhà vệ sinh",
+        "nha ve sinh",
+        "wc",
+        "toilet",
+        "restroom"
+      ]
+    },
+    {
+      "externalId": "poi-sky-bridge-l2",
+      "name": "Cầu kính tầng 2",
+      "category": "LANDMARK",
+      "roomId": "room-l2-sky-bridge",
+      "routingNodeId": "n-l2-atrium",
+      "position": [
+        800,
+        500
+      ],
+      "searchAliases": [
+        "cầu kính",
+        "cau kinh",
+        "cầu trên cao",
+        "cau tren cao",
+        "sky bridge"
+      ]
+    }
+  ],
+  "connectors": [
+    {
+      "externalId": "elevator-a-l2",
+      "groupId": "elevator-a",
+      "type": "ELEVATOR",
+      "roomId": "room-l2-elevator-a",
+      "routingNodeId": "n-l2-elevator",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": true
+    },
+    {
+      "externalId": "escalator-main-l2",
+      "groupId": "escalator-main",
+      "type": "ESCALATOR",
+      "roomId": "room-l2-escalator-main",
+      "routingNodeId": "n-l2-escalator",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    },
+    {
+      "externalId": "stair-west-l2",
+      "groupId": "stair-west",
+      "type": "STAIR",
+      "roomId": "room-l2-stair-west",
+      "routingNodeId": "n-l2-stair-west",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    },
+    {
+      "externalId": "stair-east-l2",
+      "groupId": "stair-east",
+      "type": "STAIR",
+      "roomId": "room-l2-stair-east",
+      "routingNodeId": "n-l2-stair-east",
+      "servedFloors": [
+        1,
+        2,
+        3
+      ],
+      "accessible": false
+    }
+  ],
+  "kiosks": [
+    {
+      "externalId": "kiosk-l2-01",
+      "name": "Máy tra cứu thời trang",
+      "routingNodeId": "n-l2-atrium",
+      "position": [
+        760,
+        560
+      ]
+    }
+  ],
+  "navigation": {
+    "nodes": [
+      {
+        "id": "n-l2-south",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          760
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-atrium",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-north",
+        "type": "WALKWAY",
+        "position": [
+          800,
+          220
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-west",
+        "type": "WALKWAY",
+        "position": [
+          240,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-east",
+        "type": "WALKWAY",
+        "position": [
+          1360,
+          390
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-elevator",
+        "type": "CONNECTOR",
+        "position": [
+          1190,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-escalator",
+        "type": "CONNECTOR",
+        "position": [
+          800,
+          410
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l2-stair-west",
+        "type": "CONNECTOR",
+        "position": [
+          205,
+          748
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l2-stair-east",
+        "type": "CONNECTOR",
+        "position": [
+          1410,
+          252
+        ],
+        "accessible": false
+      },
+      {
+        "id": "n-l2-fashion",
+        "type": "POI_ANCHOR",
+        "position": [
+          340,
+          212
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-sport",
+        "type": "POI_ANCHOR",
+        "position": [
+          138,
+          360
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-kids",
+        "type": "POI_ANCHOR",
+        "position": [
+          138,
+          600
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-home",
+        "type": "POI_ANCHOR",
+        "position": [
+          365,
+          808
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-beauty",
+        "type": "POI_ANCHOR",
+        "position": [
+          1285,
+          222
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-sneaker",
+        "type": "POI_ANCHOR",
+        "position": [
+          1460,
+          365
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-travel",
+        "type": "POI_ANCHOR",
+        "position": [
+          1460,
+          605
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-service",
+        "type": "POI_ANCHOR",
+        "position": [
+          800,
+          808
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-restroom",
+        "type": "POI_ANCHOR",
+        "position": [
+          1400,
+          612
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-east-gate",
+        "type": "WALKWAY",
+        "position": [
+          1080,
+          500
+        ],
+        "accessible": true
+      },
+      {
+        "id": "n-l2-east-upper",
+        "type": "WALKWAY",
+        "position": [
+          1080,
+          390
+        ],
+        "accessible": true
+      }
+    ],
+    "edges": [
+      {
+        "id": "e-l2-south-atrium",
+        "fromNodeId": "n-l2-south",
+        "toNodeId": "n-l2-atrium",
+        "type": "WALKWAY",
+        "distanceMeters": 2.6,
+        "cost": 2.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-atrium-north",
+        "fromNodeId": "n-l2-atrium",
+        "toNodeId": "n-l2-north",
+        "type": "WALKWAY",
+        "distanceMeters": 2.8,
+        "cost": 2.8,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-atrium-west",
+        "fromNodeId": "n-l2-atrium",
+        "toNodeId": "n-l2-west",
+        "type": "WALKWAY",
+        "distanceMeters": 5.6,
+        "cost": 5.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-atrium-east",
+        "fromNodeId": "n-l2-atrium",
+        "toNodeId": "n-l2-east-gate",
+        "type": "WALKWAY",
+        "distanceMeters": 2.8,
+        "cost": 2.8,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-east-elevator",
+        "fromNodeId": "n-l2-east-gate",
+        "toNodeId": "n-l2-elevator",
+        "type": "WALKWAY",
+        "distanceMeters": 1.1,
+        "cost": 1.1,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-atrium-escalator",
+        "fromNodeId": "n-l2-atrium",
+        "toNodeId": "n-l2-escalator",
+        "type": "WALKWAY",
+        "distanceMeters": 0.9,
+        "cost": 0.9,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l2-west-stair",
+        "fromNodeId": "n-l2-west",
+        "toNodeId": "n-l2-stair-west",
+        "type": "WALKWAY",
+        "distanceMeters": 2.5,
+        "cost": 2.5,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l2-east-stair",
+        "fromNodeId": "n-l2-east",
+        "toNodeId": "n-l2-stair-east",
+        "type": "WALKWAY",
+        "distanceMeters": 1.47,
+        "cost": 1.47,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l2-north-fashion",
+        "fromNodeId": "n-l2-north",
+        "toNodeId": "n-l2-fashion",
+        "type": "DOOR_LINK",
+        "distanceMeters": 4.6,
+        "cost": 4.6,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-west-sport",
+        "fromNodeId": "n-l2-west",
+        "toNodeId": "n-l2-sport",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.73,
+        "cost": 1.73,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-west-kids",
+        "fromNodeId": "n-l2-west",
+        "toNodeId": "n-l2-kids",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.43,
+        "cost": 1.43,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-south-home",
+        "fromNodeId": "n-l2-south",
+        "toNodeId": "n-l2-home",
+        "type": "DOOR_LINK",
+        "distanceMeters": 4.38,
+        "cost": 4.38,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-north-beauty",
+        "fromNodeId": "n-l2-north",
+        "toNodeId": "n-l2-beauty",
+        "type": "DOOR_LINK",
+        "distanceMeters": 4.85,
+        "cost": 4.85,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-east-sneaker",
+        "fromNodeId": "n-l2-east",
+        "toNodeId": "n-l2-sneaker",
+        "type": "DOOR_LINK",
+        "distanceMeters": 1.03,
+        "cost": 1.03,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-east-travel",
+        "fromNodeId": "n-l2-east",
+        "toNodeId": "n-l2-travel",
+        "type": "DOOR_LINK",
+        "distanceMeters": 2.37,
+        "cost": 2.37,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-south-service",
+        "fromNodeId": "n-l2-south",
+        "toNodeId": "n-l2-service",
+        "type": "DOOR_LINK",
+        "distanceMeters": 0.48,
+        "cost": 0.48,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-l2-east-restroom",
+        "fromNodeId": "n-l2-east",
+        "toNodeId": "n-l2-restroom",
+        "type": "DOOR_LINK",
+        "distanceMeters": 2.26,
+        "cost": 2.26,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-elevator-l1-l2",
+        "fromNodeId": "n-l1-elevator",
+        "toNodeId": "n-l2-elevator",
+        "type": "ELEVATOR",
+        "distanceMeters": 0,
+        "cost": 25,
+        "bidirectional": true,
+        "accessible": true
+      },
+      {
+        "id": "e-escalator-l1-l2",
+        "fromNodeId": "n-l1-escalator",
+        "toNodeId": "n-l2-escalator",
+        "type": "ESCALATOR",
+        "distanceMeters": 0,
+        "cost": 18,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-stair-west-l1-l2",
+        "fromNodeId": "n-l1-stair-west",
+        "toNodeId": "n-l2-stair-west",
+        "type": "STAIR",
+        "distanceMeters": 0,
+        "cost": 20,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-stair-east-l1-l2",
+        "fromNodeId": "n-l1-stair-east",
+        "toNodeId": "n-l2-stair-east",
+        "type": "STAIR",
+        "distanceMeters": 0,
+        "cost": 20,
+        "bidirectional": true,
+        "accessible": false
+      },
+      {
+        "id": "e-l2-east-gate-upper",
+        "fromNodeId": "n-l2-east-gate",
+        "toNodeId": "n-l2-east-upper",
+        "type": "WALKWAY",
+        "bidirectional": true,
+        "accessible": true,
+        "distanceMeters": 1.1,
+        "cost": 1.1
+      },
+      {
+        "id": "e-l2-east-upper-gallery",
+        "fromNodeId": "n-l2-east-upper",
+        "toNodeId": "n-l2-east",
+        "type": "WALKWAY",
+        "bidirectional": true,
+        "accessible": true,
+        "distanceMeters": 2.8,
+        "cost": 2.8
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+spring:
+  application:
+    name: wayflo-backend
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/wayflo
+    username: wayflo
+    password: wayflo
+
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        format_sql: true
+        jdbc:
+          batch_size: 100
+
+  flyway:
+    enabled: true
+
+  data:
+    redis:
+      host: localhost
+      port: 6379
+
+  cache:
+    type: redis
+
+server:
+  error:
+    include-message: never
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info,metrics,prometheus
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+
+wayflo:
+  seed:
+    enabled: false
+    location-pattern: classpath*:seed/buildings/*/floor-*.json
+
+  navigation:
+    default-walking-speed-meter-per-second: 1.2
+    elevator-base-penalty-second: 25
+    stair-floor-penalty-second: 20
