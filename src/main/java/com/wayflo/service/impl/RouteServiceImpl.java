@@ -272,16 +272,16 @@ public class RouteServiceImpl implements RouteService {
         List<NavigationNode> nodes
     ) {
         return switch (request.type()) {
-            case KIOSK -> resolveKiosk(mapVersion, request, nodes);
+            case KIOSK -> resolveKiosk(mapVersion, request, destination, nodes);
             case POI -> resolvePoi(mapVersion, request, destination, nodes);
-            case NODE -> resolveNode(mapVersion, request);
-            case POINT -> resolvePoint(request, nodes);
+            case NODE -> resolveNode(mapVersion, request, destination);
+            case POINT -> resolvePoint(request, destination, nodes);
         };
     }
 
-    private ResolvedEndpoint resolveKiosk(MapVersion mapVersion, RouteEndpointRequest request, List<NavigationNode> nodes) {
+    private ResolvedEndpoint resolveKiosk(MapVersion mapVersion, RouteEndpointRequest request, boolean destination, List<NavigationNode> nodes) {
         Kiosk kiosk = kioskRepository.findByMapVersionIdAndExternalId(mapVersion.getId(), requiredExternalId(request))
-            .orElseThrow(() -> new BusinessException(ErrorCode.ORIGIN_NOT_FOUND));
+            .orElseThrow(() -> new BusinessException(destination ? ErrorCode.DESTINATION_NOT_FOUND : ErrorCode.ORIGIN_NOT_FOUND));
         NavigationNode node = kiosk.getRoutingNode() == null
             ? nearestNode(kiosk.getFloor().getId(), kiosk.getPosition(), nodes)
             : kiosk.getRoutingNode();
@@ -305,16 +305,16 @@ public class RouteServiceImpl implements RouteService {
         return new ResolvedEndpoint(node);
     }
 
-    private ResolvedEndpoint resolveNode(MapVersion mapVersion, RouteEndpointRequest request) {
+    private ResolvedEndpoint resolveNode(MapVersion mapVersion, RouteEndpointRequest request, boolean destination) {
         NavigationNode node = navigationNodeRepository
             .findByMapVersionIdAndExternalId(mapVersion.getId(), requiredExternalId(request))
-            .orElseThrow(() -> new BusinessException(ErrorCode.ORIGIN_NOT_FOUND));
+            .orElseThrow(() -> new BusinessException(destination ? ErrorCode.DESTINATION_NOT_FOUND : ErrorCode.ORIGIN_NOT_FOUND));
         return new ResolvedEndpoint(node);
     }
 
-    private ResolvedEndpoint resolvePoint(RouteEndpointRequest request, List<NavigationNode> nodes) {
+    private ResolvedEndpoint resolvePoint(RouteEndpointRequest request, boolean destination, List<NavigationNode> nodes) {
         if (request.floorId() == null || request.position() == null) {
-            throw new BusinessException(ErrorCode.ORIGIN_NOT_FOUND, "POINT endpoints require floorId and position.");
+            throw new BusinessException(destination ? ErrorCode.DESTINATION_NOT_FOUND : ErrorCode.ORIGIN_NOT_FOUND, "POINT endpoints require floorId and position.");
         }
         Point point = GeometryUtils.point(request.position().x(), request.position().y());
         return new ResolvedEndpoint(nearestNode(request.floorId(), point, nodes));
