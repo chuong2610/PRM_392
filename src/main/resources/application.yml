@@ -3,7 +3,7 @@ spring:
     name: wayflo-backend
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/wayflo
+    url: jdbc:postgresql://localhost:5433/wayflo
     username: wayflo
     password: wayflo
 
