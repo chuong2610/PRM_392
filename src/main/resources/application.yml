@@ -3,7 +3,7 @@ spring:
     name: wayflo-backend
 
   datasource:
-    url: jdbc:postgresql://localhost:5433/wayflo
+    url: jdbc:postgresql://localhost:5435/wayflo
     username: wayflo
     password: wayflo
 
@@ -44,7 +44,7 @@ springdoc:
 
 wayflo:
   seed:
-    enabled: false
+    enabled: true
     location-pattern: classpath*:seed/buildings/*/floor-*.json
 
   navigation:
