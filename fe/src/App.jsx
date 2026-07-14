@@ -43,12 +43,18 @@ const CATEGORY_LABELS = {
 };
 
 function initialBaseUrl() {
-  return localStorage.getItem(STORAGE_KEYS.baseUrl) || import.meta.env.VITE_API_BASE_URL || '';
+  const params = new URLSearchParams(window.location.search);
+  return params.get('baseUrl') || localStorage.getItem(STORAGE_KEYS.baseUrl) || import.meta.env.VITE_API_BASE_URL || '';
+}
+
+function initialBuildingId() {
+  const params = new URLSearchParams(window.location.search);
+  return params.get('buildingId') || localStorage.getItem(STORAGE_KEYS.buildingId) || '';
 }
 
 function App() {
   const [baseUrl, setBaseUrl] = useState(initialBaseUrl);
-  const [buildingId, setBuildingId] = useState(localStorage.getItem(STORAGE_KEYS.buildingId) || '');
+  const [buildingId, setBuildingId] = useState(initialBuildingId);
   const [manifest, setManifest] = useState(null);
   const [floorMaps, setFloorMaps] = useState({});
   const [activeFloorId, setActiveFloorId] = useState('');
@@ -80,8 +86,55 @@ function App() {
   useEffect(() => {
     if (buildingId) {
       localStorage.setItem(STORAGE_KEYS.buildingId, buildingId);
+      loadManifestAndFloors(buildingId);
     }
   }, [buildingId]);
+
+  // Đồng bộ sang Flutter qua JS Channel khi đổi tầng
+  useEffect(() => {
+    if (activeFloorId && window.WayFloChannel) {
+      window.WayFloChannel.postMessage(JSON.stringify({
+        type: 'FLOOR_CHANGED',
+        payload: activeFloorId
+      }));
+    }
+  }, [activeFloorId]);
+
+  // Đồng bộ sang Flutter qua JS Channel khi chọn POI
+  useEffect(() => {
+    if (selectedResult && window.WayFloChannel) {
+      window.WayFloChannel.postMessage(JSON.stringify({
+        type: 'POI_SELECTED',
+        payload: selectedResult
+      }));
+    }
+  }, [selectedResult]);
+
+  // Lắng nghe lệnh gửi từ Flutter xuống Webview
+  useEffect(() => {
+    window.handleFlutterMessage = (message) => {
+      console.log('Received message from Flutter:', message);
+      const { type, payload } = message;
+      switch (type) {
+        case 'CHANGE_FLOOR':
+          setActiveFloorId(payload);
+          break;
+        case 'SELECT_POI_BY_ID':
+          if (payload) {
+            const found = searchResults.find(r => r.externalId === payload);
+            if (found) {
+              selectResult(found);
+            }
+          }
+          break;
+        default:
+          console.warn('Unknown event type from Flutter:', type);
+      }
+    };
+    return () => {
+      delete window.handleFlutterMessage;
+    };
+  }, [searchResults]);
 
   async function runTask(taskName, action, successMessage) {
     setBusy(taskName);
